@@ -16,7 +16,16 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+<dependencies>
+    <!-- Otras dependencias -->
 
+    <dependency>
+        <groupId>jakarta.servlet</groupId>
+        <artifactId>jakarta.servlet-api</artifactId>
+        <version>6.0.0</version> <!-- Podés ajustar la versión si estás usando una diferente -->
+        <scope>provided</scope>
+    </dependency>
+</dependencies>
     <build>
         <finalName>login-java</finalName>
     </build>
